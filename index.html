@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ALarm Clock</title>
+
+    <link rel="stylesheet" href="CSS/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="heading">
+        <h1>Set One ALarm for All Your Routines...</h1>
+    </div>
+
+    <div class="container dyn-Height">
+        <div class="time-container">
+            <div class="clock">
+                <span class="numbers" style="--i:0"><span>12</span></span>
+                <span class="numbers" style="--i:1"><span>3</span></span>
+                <span class="numbers" style="--i:2"><span>6</span></span>
+                <span class="numbers" style="--i:3"><span>9</span></span>
+                <div class="hands">
+                    <span class="hr"><span></span></span>
+                    <span class="min"><span></span></span>
+                    <span class="sec"><span></span></span>
+                </div>
+            </div>
+        </div>
+        <div class="alarm-container">
+            <span class="time"></span>
+        </div>
+
+        <div class="alarm-set-container">
+            <div class="set-time-container">
+                <div class="set-hr">
+                    <div>Set Hr</div>
+                </div>
+                <div class="time-list hide">
+                    <ul class="hours">
+                        <li>00</li>
+                        <li>01</li>
+                        <li>02</li>
+                        <li>03</li>
+                        <li>04</li>
+                        <li>05</li>
+                        <li>06</li>
+                        <li>07</li>
+                        <li>08</li>
+                        <li>09</li>
+                        <li>10</li>
+                        <li>11</li>
+                        <li>12</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="set-time-container">
+                <div class="set-min">
+                    <div>Set Mins</div>
+                </div>
+                <div class="time-list hide">
+                    <ul class="mins">
+                        <li>00</li>
+                        <li>01</li>
+                        <li>02</li>
+                        <li>03</li>
+                        <li>04</li>
+                        <li>05</li>
+                        <li>06</li>
+                        <li>07</li>
+                        <li>08</li>
+                        <li>09</li>
+                        <li>10</li>
+                        <li>11</li>
+                        <li>12</li>
+                        <li>13</li>
+                        <li>14</li>
+                        <li>15</li>
+                        <li>16</li>
+                        <li>17</li>
+                        <li>18</li>
+                        <li>19</li>
+                        <li>20</li>
+                        <li>21</li>
+                        <li>22</li>
+                        <li>23</li>
+                        <li>24</li>
+                        <li>25</li>
+                        <li>26</li>
+                        <li>27</li>
+                        <li>28</li>
+                        <li>29</li>
+                        <li>30</li>
+                        <li>31</li>
+                        <li>32</li>
+                        <li>33</li>
+                        <li>34</li>
+                        <li>35</li>
+                        <li>36</li>
+                        <li>37</li>
+                        <li>38</li>
+                        <li>39</li>
+                        <li>40</li>
+                        <li>41</li>
+                        <li>42</li>
+                        <li>43</li>
+                        <li>44</li>
+                        <li>45</li>
+                        <li>46</li>
+                        <li>47</li>
+                        <li>48</li>
+                        <li>49</li>
+                        <li>50</li>
+                        <li>51</li>
+                        <li>52</li>
+                        <li>53</li>
+                        <li>54</li>
+                        <li>55</li>
+                        <li>56</li>
+                        <li>57</li>
+                        <li>58</li>
+                        <li>59</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="set-time-container">
+                <div class="set-sec">
+                    <div>Set Sec</div>
+                </div>
+                <div class="time-list hide">
+                    <ul class="sec">
+                        <li>00</li>
+                        <li>01</li>
+                        <li>02</li>
+                        <li>03</li>
+                        <li>04</li>
+                        <li>05</li>
+                        <li>06</li>
+                        <li>07</li>
+                        <li>08</li>
+                        <li>09</li>
+                        <li>10</li>
+                        <li>11</li>
+                        <li>12</li>
+                        <li>13</li>
+                        <li>14</li>
+                        <li>15</li>
+                        <li>16</li>
+                        <li>17</li>
+                        <li>18</li>
+                        <li>19</li>
+                        <li>20</li>
+                        <li>21</li>
+                        <li>22</li>
+                        <li>23</li>
+                        <li>24</li>
+                        <li>25</li>
+                        <li>26</li>
+                        <li>27</li>
+                        <li>28</li>
+                        <li>29</li>
+                        <li>30</li>
+                        <li>31</li>
+                        <li>32</li>
+                        <li>33</li>
+                        <li>34</li>
+                        <li>35</li>
+                        <li>36</li>
+                        <li>37</li>
+                        <li>38</li>
+                        <li>39</li>
+                        <li>40</li>
+                        <li>41</li>
+                        <li>42</li>
+                        <li>43</li>
+                        <li>44</li>
+                        <li>45</li>
+                        <li>46</li>
+                        <li>47</li>
+                        <li>48</li>
+                        <li>49</li>
+                        <li>50</li>
+                        <li>51</li>
+                        <li>52</li>
+                        <li>53</li>
+                        <li>54</li>
+                        <li>55</li>
+                        <li>56</li>
+                        <li>57</li>
+                        <li>58</li>
+                        <li>59</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="set-time-container">
+                <div class="set-ampm">
+                    <div>AM / PM</div>
+                </div>
+                <div class="time-list ampm hide">
+                    <ul class="ampm">
+                        <li>AM</li>
+                        <li>PM</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="buttons-container actual-height">
+            <div class="alarm-button">
+                <button type="submit" class="create-alarm">Create Alarm</button>
+            </div>
+            <div class="alarm-button">
+                <button type="submit" class="stop-alarm">Dismis Alarm</button>
+            </div>
+        </div>
+    </div>
+
+    <footer id="footer">
+        Made with 💖 Deep Developers
+    </footer>
+
+    <script src="JS/script.js"></script>
+
+</body>
+
+</html>
